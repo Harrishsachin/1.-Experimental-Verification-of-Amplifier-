@@ -48,14 +48,16 @@ The negative sign in gain indicates a **phase shift of 180°**.
 Acl = -RF/R1
 
 PIN DIAGRAM
-<img width="624" height="269" alt="image" src="https://github.com/user-attachments/assets/635c9837-d5f5-4d6f-acc9-8a47a4368230" />
+![WhatsApp Image 2025-11-28 at 22 48 41_bc2d6fff](https://github.com/user-attachments/assets/7352aef1-2c3c-4697-8e89-cc77d7f11f6d)
+
 
 CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
-<img width="779" height="440" alt="image" src="https://github.com/user-attachments/assets/a14d8bc1-9dc7-4a49-98b0-f5320f450a63" />
+![WhatsApp Image 2025-11-28 at 22 49 22_406d4ce9](https://github.com/user-attachments/assets/94adad4b-8d14-4fbe-bd30-040f405113a7)
+
 
 MODEL GRAPH 
 
-<img width="543" height="357" alt="image" src="https://github.com/user-attachments/assets/1836d120-768e-454f-bfe4-682ce70ea7a1" />
+![WhatsApp Image 2025-11-28 at 22 49 59_02ac8138](https://github.com/user-attachments/assets/7b670a9b-4823-4e38-8b85-90733068e987)
 
 
 
@@ -63,10 +65,8 @@ DESIGN:
 
 Inverting amplifier:
 
-A = -Rf/R1
-Take  A = 10
-Rf =10 R1
-Choose R1 = 1kΩ, Rf=10kΩ
+![WhatsApp Image 2025-11-28 at 22 51 13_3f4e6e08](https://github.com/user-attachments/assets/c67147a2-8786-481c-9f25-3f46781d319a)
+
 
 PROCEDURE:
 Inverting amplifier:
@@ -82,16 +82,13 @@ Inverting amplifier:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
- 
+![WhatsApp Image 2025-11-28 at 22 50 43_dcf8d595](https://github.com/user-attachments/assets/7e72d197-01a7-49c0-987b-2fe83aa44c9f)
+
 
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-28 at 22 51 42_42e07117](https://github.com/user-attachments/assets/93a78998-0b42-4aba-9878-0b3664b65fd8)
 
 
 ---
@@ -108,14 +105,15 @@ ACL = 1 + RF/R1
 
 ## CIRCUIT DIAGRAM
 
+![WhatsApp Image 2025-11-28 at 22 52 27_8ca34183](https://github.com/user-attachments/assets/81b31e40-30ce-454d-9acd-2af4f7b029a7)
 
-<img width="704" height="397" alt="image" src="https://github.com/user-attachments/assets/1b4b170f-cf21-4fa9-9dc7-96db30b3c153" />
 
 ---
 
 ## MODEL GRAPH
 
-<img width="456" height="340" alt="image" src="https://github.com/user-attachments/assets/00c7aaec-b4d8-414e-afa3-e985eb3dd902" />
+![WhatsApp Image 2025-11-28 at 22 53 00_50643f11](https://github.com/user-attachments/assets/8b61db67-913a-4011-b3ee-f76343612bf6)
+
 
 ---
 PROCEDURE:
@@ -129,15 +127,14 @@ PROCEDURE:
 7. Plot the input vs. output waveform for one practical case.
 
 ## TABULATION
+![WhatsApp Image 2025-11-28 at 22 54 17_db470eb6](https://github.com/user-attachments/assets/b4f64c28-0d47-411f-9033-a9ed3bb001f3)
+![WhatsApp Image 2025-11-28 at 22 53 32_aa17bf44](https://github.com/user-attachments/assets/f0054665-3e18-4ea3-bfd9-78088977b104)
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-28 at 22 54 44_9214ac3f](https://github.com/user-attachments/assets/a3e4b0a2-ead3-47e3-b31b-02467c34f469)
 
 
 ---
@@ -150,10 +147,12 @@ If the two input signals are identical, the output is ideally **zero**.
 
 A = Vo/{V2 - V1} = -Rf/R1
 ## CIRCUIT DIAGRAM
-<img width="706" height="522" alt="image" src="https://github.com/user-attachments/assets/917f2544-3735-4a23-a9b7-1264966d0d20" />
+![WhatsApp Image 2025-11-28 at 22 55 23_d678633b](https://github.com/user-attachments/assets/34abac6d-6935-4d95-b0e3-c5e20ea34de9)
+
 
 ## MODEL GRAPH
-<img width="678" height="334" alt="image" src="https://github.com/user-attachments/assets/6aa1b9dd-b112-4be1-a37a-d5ee19607b1d" />
+![WhatsApp Image 2025-11-28 at 22 56 26_9ec9e380](https://github.com/user-attachments/assets/da2aa5e5-0843-4678-b8d5-e1af69788a18)
+
 
 ---
 
@@ -162,14 +161,8 @@ A = Vo/{V2 - V1} = -Rf/R1
 
 ### **Differential Amplifier**
 
-AV = Vo/{V1 - V2} = -Rf/R1
+![WhatsApp Image 2025-11-28 at 22 56 56_22fda3e8](https://github.com/user-attachments/assets/e72eb193-6ec8-48fc-938a-097bd66a25a0)
 
-
-Take  A = 10 
-⇒  Rf = 10R1   
-Choose  R1 = 1kOhm, Rf = 10kOhm
-
----
 
 
 
@@ -186,15 +179,12 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 
 ## TABULATION (Differential Amplifier)
 
-| S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
-|------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![WhatsApp Image 2025-11-28 at 22 57 13_cea374c1](https://github.com/user-attachments/assets/910267cf-946e-4f4a-a314-e8e3f8ffe040)
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2025-11-28 at 22 57 32_0a285ae4](https://github.com/user-attachments/assets/49aa8484-fd51-43f0-ba74-3c4c1e833aed)
 
 ---
 ## INSTRUMENTATION AMPLIFIER
@@ -208,8 +198,8 @@ Vo = RF/R1[1+ 2R’/R][V2-V1]
  
 
 ## CIRCUIT DIAGRAM: INSTRUMENTATION AMPLIFIER
+![WhatsApp Image 2025-11-28 at 23 00 06_6e2f6c78](https://github.com/user-attachments/assets/78254bd1-fbdd-419f-bd88-c46949b18cc2)
 
-<img width="1006" height="1087" alt="image" src="https://github.com/user-attachments/assets/636c08f9-7940-470e-a89e-4891d57a9ac7" />
 
 PROCEDURE:
 
@@ -224,19 +214,15 @@ PROCEDURE:
 ---
 
 ## TABULATION (Instrumentation Amplifier)
+![WhatsApp Image 2025-11-28 at 23 00 39_f990d56b](https://github.com/user-attachments/assets/197ea6be-38bb-4549-bcf8-21f6c91c1ea5)
 
-| S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
-|------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2025-11-28 at 23 00 59_ec3302ee](https://github.com/user-attachments/assets/b61734b1-cbd9-4a26-bd7f-ca336057b537)
 
 ---
 ## RESULT
-Thus, the **Inverting**, **Non-Inverting**, **Differential**, and **Instrumentation Amplifiers** were designed and their performance successfully tested using Op-Amp IC 741.
+![WhatsApp Image 2025-11-28 at 23 01 46_23f56fda](https://github.com/user-attachments/assets/6a0d93b4-329b-4c3c-9869-11a940887299)
 
----
